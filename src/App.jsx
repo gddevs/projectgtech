@@ -1,11 +1,16 @@
 import React from 'react';
+import Header from './components/Header.jsx';
+import Banner from './components/Banner.jsx';
 
 const App = () => {
   return (
     <div>
-      <h1>React + Vite</h1>
+      <Header />
+      <Banner />
     </div>
   );
 };
+
+
 
 export default App;
